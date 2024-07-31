@@ -1,4 +1,4 @@
-* { 
+/* * { 
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -28,4 +28,13 @@ body{
 
 .weatherIcon{
     height: 90px;
+    opacity: 0.4;
 }
+.Today{
+    width: 30%;
+    border-left: solid, 1px, rgb(46, 44, 44);
+}
+.Forcast{
+    width: 70%;
+    text-align: left;
+} */
