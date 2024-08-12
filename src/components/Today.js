@@ -1,17 +1,15 @@
-import React from 'react';
+import React from "react";
 
+function Today() {
+  const handleOnClick = () => {
+    console.log("pressed");
+  };
 
-
-function Today(props) {
-
-    return (
-        <div className='Today'>
-            <h1>Today</h1>
-            <img className='weatherIcon'  alt='weather icon' src='icon/1.png'/>
-            <p>56 / 34</p>
-            <p>Partly Cloudy</p>
-        </div>
-    );
+  return (
+    <div className="Today">
+      <button onClick={handleOnClick}>Button 1</button>
+    </div>
+  );
 }
 
 export default Today;
